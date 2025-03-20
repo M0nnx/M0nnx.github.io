@@ -749,6 +749,12 @@
   transition: all 0.3s ease;
   background-color: #f5f5f5;
 }
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 10vh;      
+}
 
 .social-link:hover {
   color: white;
@@ -761,12 +767,10 @@
   font-size: 1.3rem;
 }
 
-/* GitHub specific hover */
 .social-link:hover .fa-github {
   color: white;
 }
 
-/* LinkedIn specific hover */
 .social-link:hover .fa-linkedin {
   color: white;
 }
@@ -1138,6 +1142,7 @@
       height: 100%;
       object-fit: contain; 
     }
+
     
   }
   
